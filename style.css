@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding:0;
+    border: 0;  
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* --------------------------------------------------
+------------------- General Layout ------------------
+----------------------------------------------------*/
+.clock-box {
+    background-color: #22262B;
+    position:relative;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid #22262B;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+}
+.clock-display {
+    background-color: #cecece;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    overflow:hidden;
+}
+.time-display {
+  position:relative;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+  overflow:hidden;
+  z-index : 1;
+}
+#filler{
+  background : #a33535;
+  height: 0px;
+  width: 200px;
+  position:absolute;
+  bottom: 0;
+}
+/* --------------------------------------------------
+----------------------- Controls --------------------
+----------------------------------------------------*/
+span {
+    height: 50px;
+    color: white;
+
+}
+#start:hover {
+    background-color: #6f797e;
+}
+#start {
+    float: left;
+    width: 150px;
+}
+#stop:hover {
+    background-color: #5d6d76;
+}
+#stop {
+    float: right;
+    width: 150px;
+}
+
+.clock-controls {
+     position:absolute;
+     bottom:50px;
+     height: 100px;
+     color: white;
+}
+
+.controls-left {
+    float: left;
+    width: 150px;
+    text-align: center; 
+}
+
+.controls-right {
+    float: right;
+    width: 150px;
+    text-align: center;
+
+}
+
+p {
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2c3e50;
+}
+
+button {
+     font-size: 20px;
+     margin: 5px;
+     height: 25px;
+     width: 35px;
+     text-align: center;
+     background-color: Transparent;
+     border: none;
+     cursor:pointer;
+     outline: none;
+     background-color: #a33535;
+ 
+  
+}
+
+
+.start-reset {
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    line-height: 50px;
+    background-color: #818181;
+   
+}
+
+.time-adjust {
+    color: white;
+
+}
+
+#minutes {
+    color: black;
+}
+
+#colon {
+    color: black;
+}
+
+#seconds {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
